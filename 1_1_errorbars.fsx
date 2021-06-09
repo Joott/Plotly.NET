@@ -27,29 +27,29 @@ let pointsWithErrorBars =
     Chart.Point(x,y',Name="points with errors")    
     |> Chart.withXErrorStyle (Array=xError,Symmetric=true)
     |> Chart.withYErrorStyle (Array=yError, Arrayminus = xError) // for negative error, use positive values in the `Arrayminus` argument (* output: 
-<div id="e595d18a-2657-4f3b-8d51-671e462107aa" style="width: 600px; height: 600px;"><!-- Plotly chart will be drawn inside this DIV --></div>
+<div id="b9ea0009-1494-457e-aa85-efb02de7ccaa" style="width: 600px; height: 600px;"><!-- Plotly chart will be drawn inside this DIV --></div>
 <script type="text/javascript">
 
-            var renderPlotly_e595d18a26574f3b8d51671e462107aa = function() {
+            var renderPlotly_b9ea00091494457eaa85efb02de7ccaa = function() {
             var fsharpPlotlyRequire = requirejs.config({context:'fsharp-plotly',paths:{plotly:'https://cdn.plot.ly/plotly-latest.min'}}) || require;
             fsharpPlotlyRequire(['plotly'], function(Plotly) {
 
             var data = [{"type":"scatter","x":[1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0],"y":[2.0,1.5,5.0,1.5,3.0,2.5,2.5,1.5,3.5,1.0],"mode":"markers","name":"points with errors","marker":{},"error_x":{"symmetric":true,"array":[0.2,0.3,0.2,0.1,0.2,0.4,0.2,0.08,0.2,0.1]},"error_y":{"array":[0.3,0.2,0.1,0.4,0.2,0.4,0.1,0.18,0.02,0.2],"arrayminus":[0.2,0.3,0.2,0.1,0.2,0.4,0.2,0.08,0.2,0.1]}}];
             var layout = {};
             var config = {};
-            Plotly.newPlot('e595d18a-2657-4f3b-8d51-671e462107aa', data, layout, config);
+            Plotly.newPlot('b9ea0009-1494-457e-aa85-efb02de7ccaa', data, layout, config);
 });
             };
             if ((typeof(requirejs) !==  typeof(Function)) || (typeof(requirejs.config) !== typeof(Function))) {
                 var script = document.createElement("script");
                 script.setAttribute("src", "https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js");
                 script.onload = function(){
-                    renderPlotly_e595d18a26574f3b8d51671e462107aa();
+                    renderPlotly_b9ea00091494457eaa85efb02de7ccaa();
                 };
                 document.getElementsByTagName("head")[0].appendChild(script);
             }
             else {
-                renderPlotly_e595d18a26574f3b8d51671e462107aa();
+                renderPlotly_b9ea00091494457eaa85efb02de7ccaa();
             }
 </script>
 *)

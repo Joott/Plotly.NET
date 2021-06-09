@@ -37,29 +37,29 @@ let sankey1 =
         [link1;link2;link3;link4;link5]
     )
     |> Chart.withTitle "Sankey Sample"(* output: 
-<div id="11cc2917-2507-43d9-b6a4-36719104df78" style="width: 600px; height: 600px;"><!-- Plotly chart will be drawn inside this DIV --></div>
+<div id="75e7e8db-21a6-4ea8-83e2-8f7c53912323" style="width: 600px; height: 600px;"><!-- Plotly chart will be drawn inside this DIV --></div>
 <script type="text/javascript">
 
-            var renderPlotly_11cc2917250743d9b6a436719104df78 = function() {
+            var renderPlotly_75e7e8db21a64ea883e28f7c53912323 = function() {
             var fsharpPlotlyRequire = requirejs.config({context:'fsharp-plotly',paths:{plotly:'https://cdn.plot.ly/plotly-latest.min'}}) || require;
             fsharpPlotlyRequire(['plotly'], function(Plotly) {
 
             var data = [{"type":"sankey","node":{"label":["a","b","c","d","e"],"color":["Black","Red","Purple","Green","Orange"]},"link":{"source":[0,1,0,3,2],"target":[1,2,4,4,4],"value":[1.0,2.0,1.3,1.5,0.5]}}];
             var layout = {"title":"Sankey Sample"};
             var config = {};
-            Plotly.newPlot('11cc2917-2507-43d9-b6a4-36719104df78', data, layout, config);
+            Plotly.newPlot('75e7e8db-21a6-4ea8-83e2-8f7c53912323', data, layout, config);
 });
             };
             if ((typeof(requirejs) !==  typeof(Function)) || (typeof(requirejs.config) !== typeof(Function))) {
                 var script = document.createElement("script");
                 script.setAttribute("src", "https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js");
                 script.onload = function(){
-                    renderPlotly_11cc2917250743d9b6a436719104df78();
+                    renderPlotly_75e7e8db21a64ea883e28f7c53912323();
                 };
                 document.getElementsByTagName("head")[0].appendChild(script);
             }
             else {
-                renderPlotly_11cc2917250743d9b6a436719104df78();
+                renderPlotly_75e7e8db21a64ea883e28f7c53912323();
             }
 </script>
 *)
